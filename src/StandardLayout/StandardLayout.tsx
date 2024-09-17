@@ -126,14 +126,6 @@ export const StandardLayout: React.FC<ExtensionProps> = props => {
               overflow: 'hidden',
             }}
           >
-            {!compact && (
-              <EditPanel
-                showSourceCode={showSourceCode}
-                jsonReadOnly={jsonReadOnly}
-                mjmlReadOnly={mjmlReadOnly}
-              />
-            )}
-            <Layout style={{ height: containerHeight, flex: 1 }}>{props.children}</Layout>
             {compact && (
               <EditPanel
                 showSourceCode={showSourceCode}
@@ -141,7 +133,15 @@ export const StandardLayout: React.FC<ExtensionProps> = props => {
                 mjmlReadOnly={mjmlReadOnly}
               />
             )}
-            {!compact ? (
+            <Layout style={{ height: containerHeight, flex: 1 }}>{props.children}</Layout>
+            {!compact && (
+              <EditPanel
+                showSourceCode={showSourceCode}
+                jsonReadOnly={jsonReadOnly}
+                mjmlReadOnly={mjmlReadOnly}
+              />
+            )}
+            {compact ? (
               <Layout.Sider
                 style={{
                   height: containerHeight,

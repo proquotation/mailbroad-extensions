@@ -7,7 +7,6 @@ import { FullHeightOverlayScrollbars } from '@extensions/components/FullHeightOv
 import styles from './index.module.scss';
 import { ConfigurationDrawer } from './ConfigurationDrawer';
 import { useExtensionProps } from '@extensions/components/Providers/ExtensionProvider';
-import { AttributePanel } from '@extensions/AttributePanel';
 
 const TabPane = Tabs.TabPane;
 
@@ -62,17 +61,6 @@ export function EditPanel({
             </div>
           </FullHeightOverlayScrollbars>
         </TabPane>
-        <TabPane
-          key='3'
-          title={t('Configuration')}
-        >
-          <FullHeightOverlayScrollbars height={`calc(${height} - 60px)`}>
-            <div style={{ padding: 20 }}>
-              <AttributePanel />
-            </div>
-          </FullHeightOverlayScrollbars>
-        </TabPane>
-
       </Tabs>
       {!compact && (
         <ConfigurationDrawer
