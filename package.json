@@ -2,8 +2,8 @@
   "name": "mailbroad-extensions",
   "license": "MIT",
   "description": "Mailbroad editor",
-  "version": "1.0.0",
-  "author": "mailbroad-sanjay",
+  "version": "1.0.1",
+  "author": "Sanjay",
   "repository": {
     "type": "git",
     "url": "git@github.com:proquotation/mailbroad-extensions.git"
@@ -95,8 +95,8 @@
     "uuid": "^9.0.1"
   },
   "peerDependencies": {
-    "mailbroad-core": "^1.0.0",
-    "mailbroad-editor": "^1.0.0",
+    "mailbroad-core": "^1.0.1",
+    "mailbroad-editor": "^1.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-final-form": "^6.5.7"
