@@ -1,4 +1,4 @@
-.easy-email-merge-tag {
+.mailbroad-merge-tag {
   font-size: inherit;
   outline: 1px solid rgb(78 89 105) !important;
   outline-offset: 0px;
@@ -14,26 +14,26 @@
   background-color: rgb(235 249 252);
 }
 
-.easy-email-merge-tag:hover:not(.easy-email-merge-tag-focus) {
+.mailbroad-merge-tag:hover:not(.mailbroad-merge-tag-focus) {
   // outline-color: rgb(201 205 212) !important;
   // color: rgb(78 89 105);
   // background-color: rgb(229 230 235);
 }
 
-.easy-email-merge-tag-focus {
+.mailbroad-merge-tag-focus {
   // outline-color: rgb(0 160 172) !important;
   // color: rgb(78 89 105);
   // background-color: rgb(235 249 252);
 }
 
-.easy-email-merge-tag-popover {
+.mailbroad-merge-tag-popover {
   position: absolute;
   top: -10px;
   left: 50%;
   transform: translate(-50%, -100%);
 }
 
-.easy-email-merge-tag-popover {
+.mailbroad-merge-tag-popover {
   line-height: 1.3;
   background-color: #fff;
   width: 360px;
@@ -56,11 +56,11 @@
     justify-content: space-between;
     align-items: center;
   }
-  .easy-email-merge-tag-popover-desc {
+  .mailbroad-merge-tag-popover-desc {
     font-size: 14px;
     color: rgb(109, 113, 117);
   }
-  .easy-email-merge-tag-popover-desc-label {
+  .mailbroad-merge-tag-popover-desc-label {
     font-weight: 400;
     line-height: 15px;
     border: 1px solid rgb(109, 113, 117);
@@ -98,14 +98,14 @@
       outline: none;
     }
   }
-  .easy-email-merge-tag-popover-desc-label-count {
+  .mailbroad-merge-tag-popover-desc-label-count {
     color: rgb(109, 113, 117);
     z-index: 20;
     margin: 0 12px 0 3.5px;
     pointer-events: none;
     text-align: right;
   }
-  .easy-email-merge-tag-popover-desc-label-button {
+  .mailbroad-merge-tag-popover-desc-label-button {
     font-size: 14px;
     text-align: right;
     margin-top: 10px;
@@ -131,7 +131,7 @@
     }
   }
 
-  .easy-email-merge-tag-popover-container {
+  .mailbroad-merge-tag-popover-container {
     position: relative;
     z-index: 2;
   }

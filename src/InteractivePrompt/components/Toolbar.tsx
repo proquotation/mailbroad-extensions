@@ -1,6 +1,6 @@
 import React from 'react';
-import { BasicType, getParentIdx, getSiblingIdx } from 'easy-email-core';
-import { useBlock, useFocusIdx, useEditorProps, isTextBlock } from 'easy-email-editor';
+import { BasicType, getParentIdx, getSiblingIdx } from 'mailbroad-core';
+import { useBlock, useFocusIdx, useEditorProps, isTextBlock } from 'mailbroad-editor';
 import { classnames } from '@extensions/utils/classnames';
 import { useAddToCollection } from '@extensions/hooks/useAddToCollection';
 import { getBlockTitle } from '@extensions/utils/getBlockTitle';
@@ -54,7 +54,7 @@ export function Toolbar() {
   return (
     <>
       <div
-        id='easy-email-extensions-InteractivePrompt-Toolbar'
+        id='mailbroad-extensions-InteractivePrompt-Toolbar'
         style={{
           height: 0,
 

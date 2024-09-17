@@ -95,8 +95,8 @@
     "uuid": "^9.0.1"
   },
   "peerDependencies": {
-    "mailbroad-core": "^1.0.1",
-    "mailbroad-editor": "^1.0.1",
+    "mailbroad-core": "^1.0.2",
+    "mailbroad-editor": "^1.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-final-form": "^6.5.7"

@@ -6,7 +6,7 @@ import {
   IconFont,
   useRefState,
   getEditorRoot,
-} from 'easy-email-editor';
+} from 'mailbroad-editor';
 import { get } from 'lodash';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
@@ -16,13 +16,13 @@ import { useSelectionRange } from '@extensions/AttributePanel/hooks/useSelection
 
 const removeAllActiveBadge = () => {
   getShadowRoot()
-    .querySelectorAll('.easy-email-merge-tag')
+    .querySelectorAll('.mailbroad-merge-tag')
     .forEach((item) => {
-      item.classList.remove('easy-email-merge-tag-focus');
+      item.classList.remove('mailbroad-merge-tag-focus');
     });
 
   const popoverNode = getShadowRoot().querySelectorAll(
-    '.easy-email-merge-tag-popover'
+    '.mailbroad-merge-tag-popover'
   );
   if (popoverNode) {
   }
@@ -79,9 +79,9 @@ export function MergeTagBadgePrompt() {
       const target = e.target;
       if (
         target instanceof HTMLInputElement &&
-        target.classList.contains('easy-email-merge-tag')
+        target.classList.contains('mailbroad-merge-tag')
       ) {
-        target.classList.add('easy-email-merge-tag-focus');
+        target.classList.add('mailbroad-merge-tag-focus');
         const namePath = target.value;
         if (!onChangeMergeTag) {
           focusMergeTag(target);
@@ -137,23 +137,23 @@ export function MergeTagBadgePrompt() {
 
       {root && createPortal(<style>{stylesText}</style>, root as any)}
       {textContainer && createPortal(
-        <div ref={popoverRef} onClick={onClick} className={classnames('easy-email-merge-tag-popover')}>
-          <div className='easy-email-merge-tag-popover-container'>
+        <div ref={popoverRef} onClick={onClick} className={classnames('mailbroad-merge-tag-popover')}>
+          <div className='mailbroad-merge-tag-popover-container'>
             <h3>
               <span>{t('Default value')}</span>
               <IconFont style={{ color: 'rgb(92, 95, 98)' }} iconName='icon-close' onClick={onClose} />
             </h3>
-            <div className={'easy-email-merge-tag-popover-desc'}>
+            <div className={'mailbroad-merge-tag-popover-desc'}>
               <p>
                 {t('If a personalized text value isn\"t available, then a default value is shown.')}
               </p>
-              <div className='easy-email-merge-tag-popover-desc-label'>
+              <div className='mailbroad-merge-tag-popover-desc-label'>
                 <input autoFocus value={text} onChange={onChange} type="text" autoComplete='off' maxLength={40} />
-                <div className='easy-email-merge-tag-popover-desc-label-count'>
+                <div className='mailbroad-merge-tag-popover-desc-label-count'>
                   {text.length}/40
                 </div>
               </div>
-              <div className='easy-email-merge-tag-popover-desc-label-button'>
+              <div className='mailbroad-merge-tag-popover-desc-label-button'>
                 <button onClick={onSave}>{t('Save')}</button>
               </div>
             </div>

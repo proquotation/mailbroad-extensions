@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { useFocusIdx } from 'easy-email-editor';
+import { useFocusIdx } from 'mailbroad-editor';
 import { TextField } from '../../../components/Form';
 
 export function ClassName() {

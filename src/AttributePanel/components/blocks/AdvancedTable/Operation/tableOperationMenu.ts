@@ -93,7 +93,7 @@ export default class TableOperationMenu {
     document.head.appendChild(this.styleDom);
 
     this.domNode = document.createElement('div');
-    this.domNode.classList.add('easy-email-table-operation-menu');
+    this.domNode.classList.add('mailbroad-table-operation-menu');
     setStyle(this.domNode, { display: 'none' });
 
     for (let name in this.menuItems) {
@@ -114,20 +114,20 @@ export default class TableOperationMenu {
     // create dividing line
     function dividingCreator() {
       const dividing = document.createElement('div');
-      dividing.classList.add('easy-email-table-operation-menu-dividing');
+      dividing.classList.add('mailbroad-table-operation-menu-dividing');
       return dividing;
     }
   }
   menuItemCreator({ text, icon, handler }: any) {
     const node = document.createElement('div');
-    node.classList.add('easy-email-table-operation-menu-item');
+    node.classList.add('mailbroad-table-operation-menu-item');
 
     const iconSpan = document.createElement('span');
-    iconSpan.classList.add('easy-email-table-operation-menu-icon');
+    iconSpan.classList.add('mailbroad-table-operation-menu-icon');
     iconSpan.innerHTML = icon;
 
     const textSpan = document.createElement('span');
-    textSpan.classList.add('easy-email-table-operation-menu-text');
+    textSpan.classList.add('mailbroad-table-operation-menu-text');
     textSpan.innerText = text;
 
     node.appendChild(iconSpan);

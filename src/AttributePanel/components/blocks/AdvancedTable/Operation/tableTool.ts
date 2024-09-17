@@ -7,7 +7,7 @@ import {
   getTdBoundaryIndex,
   getBoundaryRectAndElement,
 } from './util';
-import { AdvancedTableBlock } from 'easy-email-core';
+import { AdvancedTableBlock } from 'mailbroad-core';
 
 interface IBorderTool {
   top: Element;

@@ -17,12 +17,12 @@ importers:
       color:
         specifier: ^4.2.3
         version: 4.2.3
-      easy-email-core:
+      mailbroad-core:
         specifier: ^4.3.6
         version: 4.12.2(react-dom@18.2.0)(react@18.2.0)
-      easy-email-editor:
+      mailbroad-editor:
         specifier: ^4.3.6
-        version: 4.12.2(easy-email-core@4.12.2)(mjml-browser@4.10.4)(react-dom@18.2.0)(react-final-form@6.5.7)(react@18.2.0)
+        version: 4.12.2(mailbroad-core@4.12.2)(mjml-browser@4.10.4)(react-dom@18.2.0)(react-final-form@6.5.7)(react@18.2.0)
       final-form:
         specifier: ^4.20.4
         version: 4.20.4
@@ -2306,16 +2306,16 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  easy-email-core@4.12.2:
+  mailbroad-core@4.12.2:
     resolution: {integrity: sha512-cfl09YInI4RYuNKhZJykQIMs22QbEYBo+BLtDcbiu2hBzJscPOLZ2mW0MQyhu0LJSiVkie+fmQLqmTXcmCCMfg==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
 
-  easy-email-editor@4.12.2:
+  mailbroad-editor@4.12.2:
     resolution: {integrity: sha512-DsGzjJtkxGaEVA+39d6uYd4TL5iUFiFvvq98ATmG+HJP8yvgBphEmGVJ6F8kduMewoEq17AYAwnrb29unvJWlQ==}
     peerDependencies:
-      easy-email-core: ^4.3.6
+      mailbroad-core: ^4.3.6
       mjml-browser: ^4.10.4
       react: ^18.2.0
       react-dom: ^18.2.0
@@ -8239,7 +8239,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  easy-email-core@4.12.2(react-dom@18.2.0)(react@18.2.0):
+  mailbroad-core@4.12.2(react-dom@18.2.0)(react@18.2.0):
     dependencies:
       he: 1.2.0
       js-beautify: 1.15.1
@@ -8248,9 +8248,9 @@ snapshots:
       react-dom: 18.2.0(react@18.2.0)
       uuid: 8.3.2
 
-  easy-email-editor@4.12.2(easy-email-core@4.12.2)(mjml-browser@4.10.4)(react-dom@18.2.0)(react-final-form@6.5.7)(react@18.2.0):
+  mailbroad-editor@4.12.2(mailbroad-core@4.12.2)(mjml-browser@4.10.4)(react-dom@18.2.0)(react-final-form@6.5.7)(react@18.2.0):
     dependencies:
-      easy-email-core: 4.12.2(react-dom@18.2.0)(react@18.2.0)
+      mailbroad-core: 4.12.2(react-dom@18.2.0)(react@18.2.0)
       final-form: 4.20.4
       final-form-arrays: 3.0.2(final-form@4.20.4)
       final-form-set-field-touched: 1.0.1(final-form@4.20.4)

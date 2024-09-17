@@ -9,11 +9,11 @@
       "@extensions/*": [
         "./src/*"
       ],
-      "easy-email-core": [
-        "../easy-email-core"
+      "mailbroad-core": [
+        "../mailbroad-core"
       ],
-      "easy-email-editor": [
-        "../easy-email-editor"
+      "mailbroad-editor": [
+        "../mailbroad-editor"
       ]
     }
   }

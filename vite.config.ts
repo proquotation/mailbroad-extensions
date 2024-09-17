@@ -14,8 +14,8 @@ export default defineConfig({
   resolve: {
     alias: {
       '@extensions': path.resolve('./src'),
-      'easy-email-core': path.resolve('../easy-email-core/lib'),
-      'easy-email-editor': path.resolve('../easy-email-editor/lib'),
+      'mailbroad-core': path.resolve('../mailbroad-core/lib'),
+      'mailbroad-editor': path.resolve('../mailbroad-editor/lib'),
     },
   },
   define: {},
@@ -27,7 +27,7 @@ export default defineConfig({
     target: 'es2015',
     lib: {
       entry: path.resolve(__dirname, 'src/index.tsx'),
-      name: 'easy-email-extension',
+      name: 'mailbroad-extension',
       formats: ['es'],
       fileName: () => 'index.js',
     },
@@ -39,8 +39,8 @@ export default defineConfig({
         'react-dom/server',
         'mjml-browser',
         'react-final-form',
-        'easy-email-core',
-        'easy-email-editor',
+        'mailbroad-core',
+        'mailbroad-editor',
         'uuid',
       ],
       output: {},

@@ -1,4 +1,4 @@
-.easy-email-table-operation-menu {
+.mailbroad-table-operation-menu {
   background-color: #fff;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   font-size: 14px;
@@ -7,12 +7,12 @@
   border-radius: 4px;
   padding: 4px 0;
 
-  .easy-email-table-operation-menu-dividing {
+  .mailbroad-table-operation-menu-dividing {
     height: 1px;
     background-color: #efefef;
   }
 
-  .easy-email-table-operation-color-picker {
+  .mailbroad-table-operation-color-picker {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -20,7 +20,7 @@
     background-color: #fff;
     overflow: hidden;
 
-    .easy-email-table-operation-color-picker-item {
+    .mailbroad-table-operation-color-picker-item {
       width: 20px;
       height: 20px;
       border: 1px solid #595959;
@@ -30,7 +30,7 @@
     }
   }
 
-  .easy-email-table-operation-menu-item {
+  .mailbroad-table-operation-menu-item {
     display: flex;
     align-items: center;
     padding: 10px 16px;
@@ -45,7 +45,7 @@
       background-color: #efefef;
     }
 
-    .easy-email-table-operation-menu-icon {
+    .mailbroad-table-operation-menu-icon {
       margin-right: 8px;
       height: 20px;
       width: 20px;
@@ -53,7 +53,7 @@
     }
   }
 
-  .easy-email-table-operation-menu-bg-item {
+  .mailbroad-table-operation-menu-bg-item {
     padding: 10px 16px;
     background-color: #fff;
     color: #595959;

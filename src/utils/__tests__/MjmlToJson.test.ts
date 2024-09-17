@@ -8,9 +8,9 @@ const mjmlText = `
 <mj-head>
 
 <mj-html-attributes>
-<mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="text-color" text-color="#000000"></mj-html-attribute>
-<mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="font-family" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',Meiryo"></mj-html-attribute>
-<mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="responsive" responsive="true"></mj-html-attribute>
+<mj-html-attribute class="mailbroad" multiple-attributes="false" attribute-name="text-color" text-color="#000000"></mj-html-attribute>
+<mj-html-attribute class="mailbroad" multiple-attributes="false" attribute-name="font-family" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',Meiryo"></mj-html-attribute>
+<mj-html-attribute class="mailbroad" multiple-attributes="false" attribute-name="responsive" responsive="true"></mj-html-attribute>
 
 </mj-html-attributes>
 

@@ -1,6 +1,6 @@
 import React from 'react';
-import { AdvancedType } from 'easy-email-core';
-import { Stack } from 'easy-email-editor';
+import { AdvancedType } from 'mailbroad-core';
+import { Stack } from 'mailbroad-editor';
 
 import { BlockMaskWrapper } from '@extensions/ShortcutToolbar/components/BlockMaskWrapper';
 import { getImg } from '@extensions/ShortcutToolbar/utils/getImg';
@@ -358,7 +358,7 @@ const heroList = [
             'padding-top': '30px',
             src: getImg('IMAGE_37'),
             target: '_blank',
-            href: 'https://easy-email-m-ryan.vercel.app/',
+            href: 'https://mailbroad-m-ryan.vercel.app/',
           },
           data: {
             value: {
